@@ -1,0 +1,33 @@
+{
+  "name": "tplite-todomvc",
+  "version": "1.0.0",
+  "description": "todomvc demo by using tplite.",
+  "author": {
+    "name": "lloydzhou",
+    "email": "lloydzhou@qq.com"
+  },
+  "keywords": [
+    "tplite",
+    "todomvc",
+    "Component",
+    "Template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tplite/todomvc"
+  },
+  "readmeFilename": "README",
+  "scripts": {
+    "build": "webpack-cli"
+  },
+  "devDependencies": {
+    "webpack": "^4.3.0",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.1",
+    "tplite": "^1.1.1",
+    "tplite-loader": "^1.0.0"
+  }
+}
